@@ -1,0 +1,48 @@
+body {
+	background-color: #000;
+	text-align: center;
+}
+
+.goose-container {
+	background-color: #fff;
+	display: inline-block;
+	margin-top: 100px;
+	padding: 75px;
+	width: 600px;
+}
+
+.select-keys {
+	display: inline-block;
+	width: 600px;
+}
+.select-keys label {
+	display: inline-block;
+	width: 150px;
+}
+
+.type-keys {
+	display: none;
+	text-align: center;
+}
+.type-keys span {
+	display: inline-block;
+	font-family: Courier;
+	text-align: left;
+	overflow: hidden;
+	width: 600px;
+}
+
+.results {
+	display: none;
+}
+.results label {
+	display: inline-block;
+	font-weight: bold;
+	text-align: left;
+	width: 200px;
+}
+.results span {
+	display: inline-block;
+	text-align: left;
+	width: 200px;
+}

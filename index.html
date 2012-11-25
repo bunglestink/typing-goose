@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Typing Goose.</title>
+		<link rel="stylesheet" type="text/css" href="goose.css" />
+		<script type="text/javascript" src="goose.js"></script>
+	</head>
+	<body>
+		<div class="goose-container">
+			<img src="goose.png" alt="" />
+			<h1>Typing Goose.</h1>
+			<div class="select-keys" id="Select-keys">
+				<div>
+					<label>Possible Keys</label>
+					<input type="text" id="Character-set" />
+				</div>
+				<div>
+					<label>Quantity</label>
+					<input type="text" id="Quantity" value="100" />
+				</div>
+				<button id="Begin-button">Begin</button>
+			</div>
+			<div class="type-keys" id="Type-keys">
+				<button id="Reset-button">Reset</button>
+				<br />
+				<span id="Problem"></span>
+				<span id="Tracker"></span>
+			</div>
+			<div class="results" id="Results">
+				<div>
+					<label>Time</label><span id="Results-time"></span>
+				</div>
+				<div>
+					<label>Correct Keys</label><span id="Results-correct"></span>
+				</div>
+				<div>
+					<label>Mistakes</label><span id="Results-mistakes"></span>
+				</div>
+				<div>
+					<label>Keys per minute</label><span id="Results-wpm"></span>
+				</div>
+				<button id="Results-reset-button">Reset</button>
+			</div>
+		<div>
+	</body>
+</html>
